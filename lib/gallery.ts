@@ -20,6 +20,8 @@ function getGalleryPaths(): string[] {
 }
 
 export async function getGalleryImages(): Promise<GalleryImage[]> {
+  "use cache";
+
   const paths = getGalleryPaths();
 
   return Promise.all(
