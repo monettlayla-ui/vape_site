@@ -1,7 +1,7 @@
 export const siteConfig = {
-  brandPrimary: "Velvet Paw",
+  brandPrimary: "GiantGentlePaws",
   brandSecondary: "Maine Coons",
-  fullName: "Velvet Paw Maine Coons",
+  fullName: "GiantGentlePaws Maine Coons",
   description:
     "Pedigree European Giant Maine Coons, based in Brisbane, Queensland.",
 };

@@ -1,4 +1,5 @@
 import { useId } from "react";
+import { siteConfig } from "@/lib/site-config";
 
 const INK = "#2A1510";
 const ACCENT = "#B5451F";
@@ -22,7 +23,7 @@ export function LogoMark({ className }: { className?: string }) {
       viewBox="0 -40 320 340"
       className={className}
       role="img"
-      aria-label="Velvet Paw Maine Coons"
+      aria-label={siteConfig.fullName}
     >
       {/* pill-shaped background */}
       <ellipse cx="160" cy="133" rx="150" ry="163" fill={CREAM} stroke={ACCENT} strokeWidth="2" />
@@ -74,13 +75,13 @@ export function LogoMark({ className }: { className?: string }) {
       <text
         fontFamily="var(--font-berkshire), cursive"
         fontWeight={400}
-        fontSize="40"
+        fontSize="27"
         fill={GLOW}
         stroke={INK}
         strokeWidth="1"
       >
         <textPath href={`#${topArcId}`} startOffset="50%" textAnchor="middle">
-          Velvet Paw
+          {siteConfig.brandPrimary}
         </textPath>
       </text>
 
