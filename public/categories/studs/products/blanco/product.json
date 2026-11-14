@@ -1,0 +1,50 @@
+{
+  "id": "blanco",
+  "title": "Blanco",
+  "description": "Blanco has a calm, composed presence with a quiet confidence that stands out immediately. He carries himself with ease, showing a steady and gentle temperament while remaining attentive to his surroundings. There is a softness to his nature, balanced with a grounded, assured character that makes him both relaxed and quietly impressive.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/blanco",
+  "attributes": {
+    "gender": "Male",
+    "born": "07th January, 2025",
+    "sale_status": "Available",
+    "colour": "Red Silver Shell",
+    "linage": "Russia, Europe, Denmark, France, Uk"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Blanco/10-12-Weeks.jpg",
+      "local_path": "categories/studs/products/blanco/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Blanco/40-12-Months.jpg",
+      "local_path": "categories/studs/products/blanco/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Blanco/Blanco-00.jpg",
+      "local_path": "categories/studs/products/blanco/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Blanco/Blanco-01.jpg",
+      "local_path": "categories/studs/products/blanco/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Blanco/Blanco-03.jpg",
+      "local_path": "categories/studs/products/blanco/images/05.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

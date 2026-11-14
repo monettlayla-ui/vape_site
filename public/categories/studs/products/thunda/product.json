@@ -1,0 +1,27 @@
+{
+  "id": "thunda",
+  "title": "Thunda",
+  "description": "Bold and imposing, Thunda is a powerful stud with unmistakable presence and a commanding silhouette. His rich dark coat and striking golden eyes make him unforgettable, and he brings strength, structure and confidence to our breeding program.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/thunda",
+  "attributes": {
+    "gender": "Male",
+    "sale_status": "Available"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/media/yootheme/cache/0d/Thunda-0dfbf7e3.jpg",
+      "local_path": "categories/studs/products/thunda/images/01.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

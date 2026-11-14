@@ -1,0 +1,27 @@
+{
+  "id": "prince-azor",
+  "name": "Prince Azor",
+  "tag": "Studs",
+  "stagesLabel": "Stages:  4-Weeks |  12-Weeks |  16-Weeks |  28-Weeks",
+  "description": [
+    "From a soft, smoky little fluff ball into a striking full-grown male, Prince Azor has developed into a cat with real presence. His high blue smoke colouring has become more defined with age, giving him a cool, elegant look that suits his calm and confident nature. As a kitten, he already showed lovely expression and strong features, and those qualities have matured beautifully over time. This progression offers a clear glimpse of how a Maine Coon can change from a fluffy youngster into a composed, impressive adult."
+  ],
+  "stages": [
+    {
+      "label": "4-Weeks",
+      "local_path": "categories/journey/prince-azor/images/01.jpg"
+    },
+    {
+      "label": "12-Weeks",
+      "local_path": "categories/journey/prince-azor/images/02.jpg"
+    },
+    {
+      "label": "16-Weeks",
+      "local_path": "categories/journey/prince-azor/images/03.jpg"
+    },
+    {
+      "label": "28-Weeks",
+      "local_path": "categories/journey/prince-azor/images/04.jpg"
+    }
+  ]
+}

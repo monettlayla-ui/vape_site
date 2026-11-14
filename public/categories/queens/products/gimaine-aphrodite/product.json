@@ -1,0 +1,38 @@
+{
+  "id": "gimaine-aphrodite",
+  "title": "Gimaine Aphrodite",
+  "description": "Aphrodite has an elegant, composed presence with a soft yet confident expression. Her full coat, striking face, and beautifully alert ears give her a refined look that immediately draws attention. She carries herself with quiet assurance, balanced by a calm and observant nature that comes through in her gaze. There is a lovely warmth to her appearance, with gentle features and a relaxed confidence that make her feel both graceful and approachable.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/queens/item/gimaine-aphrodite",
+  "attributes": {
+    "gender": "Female",
+    "born": "28 September 2023",
+    "sale_status": "Available"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Aphrodite/Aphrodite-01.jpg",
+      "local_path": "categories/queens/products/gimaine-aphrodite/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Aphrodite/Aphrodite-02.jpg",
+      "local_path": "categories/queens/products/gimaine-aphrodite/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Aphrodite/Aphrodite-03.jpg",
+      "local_path": "categories/queens/products/gimaine-aphrodite/images/03.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Queens",
+      "slug": "queens",
+      "url": "https://www.gimainecoons.com.au/our-coons/queens"
+    }
+  ]
+}

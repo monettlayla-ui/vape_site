@@ -1,0 +1,20 @@
+{
+  "id": "cheeto",
+  "name": "Cheeto",
+  "tag": null,
+  "stagesLabel": "Stages:  10-Weeks |  10-Months",
+  "description": [
+    "At just 10 weeks old, Cheeto was already showing off those beautiful Maine Coon features, with his fluffy white coat, tall ears and curious expression. By 10 months, he had grown into a striking young Red Shell boy, with an impressive coat, strong features and plenty of personality.",
+    "Cheeto is also quite the little traveller and absolutely loves going for rides in the car. From a tiny ball of fluff to a confident young Maine Coon, his transformation shows just how much these beautiful cats can change in their first year."
+  ],
+  "stages": [
+    {
+      "label": "10-Weeks",
+      "local_path": "categories/journey/cheeto/images/01.jpg"
+    },
+    {
+      "label": "10-Months",
+      "local_path": "categories/journey/cheeto/images/02.jpg"
+    }
+  ]
+}

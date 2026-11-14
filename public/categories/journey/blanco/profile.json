@@ -1,0 +1,19 @@
+{
+  "id": "blanco",
+  "name": "Blanco",
+  "tag": "Studs",
+  "stagesLabel": "Stages:  12-Weeks |  12-Months",
+  "description": [
+    "From a soft, snowy little bundle at 12 weeks to a striking, full-grown cat at 12 months and beyond, Blanco has developed with lovely balance and presence. His crisp white coat has become fuller and more impressive with age, giving him a clean, refined look that naturally draws attention. Even as a youngster, Blanco had a sweet expression and promising structure, and those qualities have strengthened beautifully over time. Watching him mature shows just how much a Maine Coon can change, growing from an irresistibly fluffy kitten into a calm, elegant, and very distinguished adult."
+  ],
+  "stages": [
+    {
+      "label": "12-Weeks",
+      "local_path": "categories/journey/blanco/images/01.jpg"
+    },
+    {
+      "label": "12-Months",
+      "local_path": "categories/journey/blanco/images/02.jpg"
+    }
+  ]
+}

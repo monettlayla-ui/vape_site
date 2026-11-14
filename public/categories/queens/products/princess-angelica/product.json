@@ -1,0 +1,30 @@
+{
+  "id": "princess-angelica",
+  "title": "Princess Angelica",
+  "description": "Princess Angelica has a refined, graceful presence, with a black silver shaded coat that gives her a soft, luminous elegance. Her expression is calm and observant, carrying a quiet confidence that feels both intelligent and composed. There is a lovely balance to her nature, with a gentle softness that makes her especially appealing alongside her naturally striking look. Princess Angelica has a warm, dignified charm and an effortless presence that makes her truly memorable.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/queens/item/princess-angelica",
+  "attributes": {
+    "gender": "Female",
+    "born": "05 May 2023",
+    "sale_status": "Available",
+    "colour": "Black Silver Shaded",
+    "linage": "Russia, Germany, Europe, UK"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Angelica/Angelica-00.jpg",
+      "local_path": "categories/queens/products/princess-angelica/images/01.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Queens",
+      "slug": "queens",
+      "url": "https://www.gimainecoons.com.au/our-coons/queens"
+    }
+  ]
+}

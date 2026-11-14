@@ -1,0 +1,49 @@
+{
+  "id": "black-silver-girl-copy",
+  "title": "Black Silver Shaded Boy #01",
+  "description": "Meet this beautiful Black Silver Shaded boy, a soft and fluffy little gentleman with a lovely pale silver coat and gentle darker shading through his face and body.\n\nHis sweet round face, dark little nose and bright kitten eyes give him an especially endearing look, while his plush coat already hints at the stunning appearance he will grow into. With his soft colouring and adorable expression, he has a charming presence that is hard to resist.\n\nThis handsome little boy would make a wonderful addition for someone looking for a truly eye-catching Maine Coon kitten with a gentle, cuddly look.",
+  "short_description": null,
+  "price": 3500,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/current-litters/item/black-silver-girl-copy",
+  "attributes": {
+    "gender": "Male",
+    "born": "30 September 2026",
+    "sale_status": "Available",
+    "colour": "Black Silver Shaded"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Shaded_Boy_1/Black-Silver-Shaded-Boy-01-02-Square.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl-copy/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Shaded_Boy_1/Black-Silver-Shaded-Boy-01-02.png",
+      "local_path": "categories/current-litters/products/black-silver-girl-copy/images/02.png"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Shaded_Boy_1/Black-Silver-Shaded-Boy-01-03.png",
+      "local_path": "categories/current-litters/products/black-silver-girl-copy/images/03.png"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Shaded_Boy_1/Black-Silver-Shaded-Boy-01-04.png",
+      "local_path": "categories/current-litters/products/black-silver-girl-copy/images/04.png"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Shaded_Boy_1/Black-Silver-Shaded-Boy-01-05.png",
+      "local_path": "categories/current-litters/products/black-silver-girl-copy/images/05.png"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Current Litters",
+      "slug": "current-litters",
+      "url": "https://www.gimainecoons.com.au/current-litters"
+    }
+  ]
+}

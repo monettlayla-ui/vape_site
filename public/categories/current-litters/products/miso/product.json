@@ -1,0 +1,69 @@
+{
+  "id": "miso",
+  "title": "Miso",
+  "description": "Miso is a sweet black silver shaded girl with a soft, pale coat and a calm, gentle expression. Her silver colouring gives her a delicate, airy look, with subtle shading through her tail and body adding just the right amount of depth. She has a relaxed little presence, appearing content and settled while still watching the world with quiet curiosity. Miso’s soft face, plush coat, and easygoing charm make her feel like a wonderfully affectionate companion.",
+  "short_description": null,
+  "price": 2500,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/current-litters/item/miso",
+  "attributes": {
+    "gender": "Female",
+    "born": "03 February 2026",
+    "sale_status": "Available",
+    "colour": "Black Silver Shaded"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-01.jpg",
+      "local_path": "categories/current-litters/products/miso/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-02.jpg",
+      "local_path": "categories/current-litters/products/miso/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-03.jpg",
+      "local_path": "categories/current-litters/products/miso/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-04.jpg",
+      "local_path": "categories/current-litters/products/miso/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-05.jpg",
+      "local_path": "categories/current-litters/products/miso/images/05.jpg"
+    },
+    {
+      "position": 6,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-06.jpg",
+      "local_path": "categories/current-litters/products/miso/images/06.jpg"
+    },
+    {
+      "position": 7,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-07.jpg",
+      "local_path": "categories/current-litters/products/miso/images/07.jpg"
+    },
+    {
+      "position": 8,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-08.jpg",
+      "local_path": "categories/current-litters/products/miso/images/08.jpg"
+    },
+    {
+      "position": 9,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-06-01/Miso/Miso-01-09.jpg",
+      "local_path": "categories/current-litters/products/miso/images/09.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Current Litters",
+      "slug": "current-litters",
+      "url": "https://www.gimainecoons.com.au/current-litters"
+    }
+  ]
+}

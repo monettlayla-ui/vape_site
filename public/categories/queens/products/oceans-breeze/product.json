@@ -1,0 +1,45 @@
+{
+  "id": "oceans-breeze",
+  "title": "Oceans Breeze",
+  "description": "Oceans Breeze has a graceful, commanding presence with a rich smoky coat and a beautifully expressive gaze. She carries herself with quiet confidence, showing a refined maturity and calm awareness in the way she takes in her surroundings. Her strong features, full ruff, and striking ear tips give her an elegant Maine Coon look, while her steady expression adds softness and warmth. Oceans Breeze has a composed, dignified nature with a gentle charm that makes her feel both impressive and deeply endearing.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/queens/item/oceans-breeze",
+  "attributes": {
+    "gender": "Female",
+    "born": "19th November, 2024",
+    "sale_status": "Available",
+    "linage": "Russia, Poland, Germany",
+    "polydactyl": "Yes"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Ocean/Ocean-01.jpg",
+      "local_path": "categories/queens/products/oceans-breeze/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Ocean/Ocean-02.jpg",
+      "local_path": "categories/queens/products/oceans-breeze/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Ocean/Ocean-03.jpg",
+      "local_path": "categories/queens/products/oceans-breeze/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Ocean/Ocean-04.jpg",
+      "local_path": "categories/queens/products/oceans-breeze/images/04.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Queens",
+      "slug": "queens",
+      "url": "https://www.gimainecoons.com.au/our-coons/queens"
+    }
+  ]
+}

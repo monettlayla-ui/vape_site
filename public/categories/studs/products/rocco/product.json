@@ -1,0 +1,27 @@
+{
+  "id": "rocco",
+  "title": "Rocco",
+  "description": "Rocco is a striking, big-featured boy with an alert expression and that unmistakable Maine Coon look. With strong ear tufts, a bold tabby pattern and bright golden eyes, he has a confident presence and a real “look at me” charm that makes him stand out straight away.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/rocco",
+  "attributes": {
+    "gender": "Male",
+    "sale_status": "Available"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/media/yootheme/cache/45/Rocco-45e362c8.jpg",
+      "local_path": "categories/studs/products/rocco/images/01.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

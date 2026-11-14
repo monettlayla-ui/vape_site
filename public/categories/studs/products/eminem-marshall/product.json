@@ -1,0 +1,40 @@
+{
+  "id": "eminem-marshall",
+  "title": "Eminem Marshall",
+  "description": "Eminem Marshall is a striking Black Silver Shaded male, showcasing a clean, refined coat and strong, well-balanced features. His expressive eyes and solid structure reflect the classic Maine Coon presence with a calm and confident demeanor.\n\nHe carries a composed and intelligent nature, with a steady temperament and a gentle, observant personality. Marshall is relaxed in his environment and displays the quiet confidence typical of a mature Maine Coon.\n\nWith his impressive build and distinguished look, Eminem Marshall is a standout example of the breed and a valued part of the Gimaine family.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/eminem-marshall",
+  "attributes": {
+    "gender": "Male",
+    "born": "28th June, 2024",
+    "sale_status": "Available",
+    "colour": "Black Silver Shaded",
+    "linage": "Russia, Germany, Poland"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Marshall/Marshall-01.jpg",
+      "local_path": "categories/studs/products/eminem-marshall/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Marshall/Marshall-02.jpg",
+      "local_path": "categories/studs/products/eminem-marshall/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Marshall/Marshall-03.jpg",
+      "local_path": "categories/studs/products/eminem-marshall/images/03.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

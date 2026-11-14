@@ -1,0 +1,106 @@
+[
+  {
+    "id": "blanco",
+    "name": "Blanco",
+    "tag": "Studs",
+    "stagesLabel": "Stages:  12-Weeks |  12-Months",
+    "description": [
+      "From a soft, snowy little bundle at 12 weeks to a striking, full-grown cat at 12 months and beyond, Blanco has developed with lovely balance and presence. His crisp white coat has become fuller and more impressive with age, giving him a clean, refined look that naturally draws attention. Even as a youngster, Blanco had a sweet expression and promising structure, and those qualities have strengthened beautifully over time. Watching him mature shows just how much a Maine Coon can change, growing from an irresistibly fluffy kitten into a calm, elegant, and very distinguished adult."
+    ],
+    "stages": [
+      {
+        "label": "12-Weeks",
+        "local_path": "categories/journey/blanco/images/01.jpg"
+      },
+      {
+        "label": "12-Months",
+        "local_path": "categories/journey/blanco/images/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "cheeto",
+    "name": "Cheeto",
+    "tag": null,
+    "stagesLabel": "Stages:  10-Weeks |  10-Months",
+    "description": [
+      "At just 10 weeks old, Cheeto was already showing off those beautiful Maine Coon features, with his fluffy white coat, tall ears and curious expression. By 10 months, he had grown into a striking young Red Shell boy, with an impressive coat, strong features and plenty of personality.",
+      "Cheeto is also quite the little traveller and absolutely loves going for rides in the car. From a tiny ball of fluff to a confident young Maine Coon, his transformation shows just how much these beautiful cats can change in their first year."
+    ],
+    "stages": [
+      {
+        "label": "10-Weeks",
+        "local_path": "categories/journey/cheeto/images/01.jpg"
+      },
+      {
+        "label": "10-Months",
+        "local_path": "categories/journey/cheeto/images/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prince-azor",
+    "name": "Prince Azor",
+    "tag": "Studs",
+    "stagesLabel": "Stages:  4-Weeks |  12-Weeks |  16-Weeks |  28-Weeks",
+    "description": [
+      "From a soft, smoky little fluff ball into a striking full-grown male, Prince Azor has developed into a cat with real presence. His high blue smoke colouring has become more defined with age, giving him a cool, elegant look that suits his calm and confident nature. As a kitten, he already showed lovely expression and strong features, and those qualities have matured beautifully over time. This progression offers a clear glimpse of how a Maine Coon can change from a fluffy youngster into a composed, impressive adult."
+    ],
+    "stages": [
+      {
+        "label": "4-Weeks",
+        "local_path": "categories/journey/prince-azor/images/01.jpg"
+      },
+      {
+        "label": "12-Weeks",
+        "local_path": "categories/journey/prince-azor/images/02.jpg"
+      },
+      {
+        "label": "16-Weeks",
+        "local_path": "categories/journey/prince-azor/images/03.jpg"
+      },
+      {
+        "label": "28-Weeks",
+        "local_path": "categories/journey/prince-azor/images/04.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prince-zeus",
+    "name": "Prince Zeus",
+    "tag": null,
+    "stagesLabel": "Stages:  12-Weeks |  12-Months",
+    "description": [
+      "From an irresistibly fluffy 12-week-old kitten into a striking young male at 12 months and beyond, Prince Zeus has matured in a way that is impossible to overlook. His red silver shaded coat with white has become more defined with age, giving him a soft, luminous look that feels both distinctive and refined. Even as a youngster, he had a memorable expression and standout presence, and those qualities have only grown stronger over time. His development beautifully shows the transformation from a sweet, fluffy baby into a confident, eye-catching adult with real character."
+    ],
+    "stages": [
+      {
+        "label": "12-Weeks",
+        "local_path": "categories/journey/prince-zeus/images/01.jpg"
+      },
+      {
+        "label": "12-Months",
+        "local_path": "categories/journey/prince-zeus/images/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "princess-leia",
+    "name": "Princess Leia",
+    "tag": "Queens",
+    "stagesLabel": "Stages:  12-Weeks |  Current",
+    "description": [
+      "From a plush little blue fluff at 12 weeks to a graceful, full-grown female at 12 months and beyond, Princess Leia has matured beautifully. Her blue solid coat has deepened into a rich, even shade, giving her a soft, polished look that feels both elegant and distinctive. As a kitten, she already had a lovely expression and a quiet charm, and those qualities have only become more refined with age. Her progression captures that wonderful Maine Coon transformation, growing from a sweet, cuddly youngster into a composed and striking young lady with real presence."
+    ],
+    "stages": [
+      {
+        "label": "12-Weeks",
+        "local_path": "categories/journey/princess-leia/images/01.jpg"
+      },
+      {
+        "label": "Current",
+        "local_path": "categories/journey/princess-leia/images/02.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "princess-leia",
+  "title": "Princess Leia",
+  "description": "Princess Leia has a soft, regal presence and a calm, composed nature that gives her a very elegant kind of beauty. Her blue solid coat adds to her refined look, with a rich, even depth that makes her especially striking. She carries herself with quiet confidence, balanced by a gentle, observant expression that feels warm and intelligent. There is a lovely steadiness to her character, along with a graceful charm that makes her stand out so effortlessly. Princess Leia is a truly impressive girl, with both presence and softness in equal measure.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/queens/item/princess-leia",
+  "attributes": {
+    "gender": "Female",
+    "born": "24 November 2022",
+    "sale_status": "Available",
+    "colour": "Blue Solid",
+    "linage": "Russia, Croatia, Poland, Europe"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Leia/10-12-Weeks.jpg",
+      "local_path": "categories/queens/products/princess-leia/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Leia/40-Current.jpg",
+      "local_path": "categories/queens/products/princess-leia/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/PrincessLeia/PrincessLeia-00.jpg",
+      "local_path": "categories/queens/products/princess-leia/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/PrincessLeia/PrincessLeia-01.jpg",
+      "local_path": "categories/queens/products/princess-leia/images/04.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Queens",
+      "slug": "queens",
+      "url": "https://www.gimainecoons.com.au/our-coons/queens"
+    }
+  ]
+}

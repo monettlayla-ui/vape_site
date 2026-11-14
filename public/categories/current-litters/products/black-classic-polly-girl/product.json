@@ -1,0 +1,44 @@
+{
+  "id": "black-classic-polly-girl",
+  "title": "Black Classic Polly Girl",
+  "description": "This sweet little tabby has a lovely, expressive face, with rich dark markings, warm golden highlights and soft cream touches around the muzzle. The fluffy coat, beautifully furnished ears and generously sized paws give this kitten a distinctive Maine Coon look. Those big, watchful eyes and thoughtful little expression add an extra touch of charm, while the delicate facial markings bring out every detail of that adorable face. A captivating little kitten with a wonderfully endearing appearance.",
+  "short_description": null,
+  "price": 3500,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/current-litters/item/black-classic-polly-girl",
+  "attributes": {
+    "gender": "Female",
+    "born": "22 September 2026",
+    "sale_status": "Available",
+    "polydactyl": "Yes"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-09-22/Black_Classic_Polly_Girl/Black_Classic_Polly_Girl_01.jpg",
+      "local_path": "categories/current-litters/products/black-classic-polly-girl/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-09-22/Black_Classic_Polly_Girl/Black_Classic_Polly_Girl_02.jpg",
+      "local_path": "categories/current-litters/products/black-classic-polly-girl/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-09-22/Black_Classic_Polly_Girl/Black_Classic_Polly_Girl_03.jpg",
+      "local_path": "categories/current-litters/products/black-classic-polly-girl/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-09-22/Black_Classic_Polly_Girl/Black_Classic_Polly_Girl_04.jpg",
+      "local_path": "categories/current-litters/products/black-classic-polly-girl/images/04.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Current Litters",
+      "slug": "current-litters",
+      "url": "https://www.gimainecoons.com.au/current-litters"
+    }
+  ]
+}

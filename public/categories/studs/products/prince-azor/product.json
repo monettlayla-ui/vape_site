@@ -1,0 +1,60 @@
+{
+  "id": "prince-azor",
+  "title": "Prince Azor",
+  "description": "Prince Azor has a strong, regal presence with a calm and assured nature that stands out immediately. He carries himself with quiet confidence, balanced by a steady and composed temperament. Observant and intelligent, he takes in his surroundings with ease, giving him a refined and commanding character.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/prince-azor",
+  "attributes": {
+    "gender": "Male",
+    "born": "05th May, 2023",
+    "sale_status": "Available",
+    "colour": "High Blue Smoke",
+    "linage": "Russia, Germany, Europe, UK, Poland"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Azor/10-4-Weeks.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Azor/20-12-Weeks.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Azor/30-16-Weeks.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Stages/Azor/40-28-Weeks.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Azor/Azor-00.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/05.jpg"
+    },
+    {
+      "position": 6,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Azor/Azor-01.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/06.jpg"
+    },
+    {
+      "position": 7,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Azor/Azor-03.jpg",
+      "local_path": "categories/studs/products/prince-azor/images/07.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

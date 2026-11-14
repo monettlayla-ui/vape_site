@@ -1,0 +1,49 @@
+{
+  "id": "black-silver-tortie",
+  "title": "Black Silver Tortie Girl",
+  "description": "Meet this gorgeous Black Silver Tortie Maine Coon girl, a beautiful little kitten with a wonderfully unique coat featuring a soft blend of smoky silver, darker charcoal and delicate warm cream tones.\n\nHer striking blue-grey kitten eyes, sweet little face, dark button nose and adorable tufted ears give her an irresistible charm. The beautiful contrast between her lighter silver face and chest and the deeper, subtly blended colours across her back makes her colouring particularly special.\n\nWith her curious gaze, fluffy coat and elegant little poses, this precious girl is already showing off the distinctive beauty of the Maine Coon breed.\n\nThis lovely little lady is sure to steal hearts and is looking for a loving forever home where she can grow into a magnificent Maine Coon companion.",
+  "short_description": null,
+  "price": 3000,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/current-litters/item/black-silver-tortie",
+  "attributes": {
+    "gender": "Female",
+    "born": "29 September 2026",
+    "sale_status": "Available",
+    "colour": "Black Silver Tortie"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Tortie/Black-Silver-Tortie-01.jpg",
+      "local_path": "categories/current-litters/products/black-silver-tortie/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Tortie/Black-Silver-Tortie-02.jpg",
+      "local_path": "categories/current-litters/products/black-silver-tortie/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Tortie/Black-Silver-Tortie-03.jpg",
+      "local_path": "categories/current-litters/products/black-silver-tortie/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Tortie/Black-Silver-Tortie-04.jpg",
+      "local_path": "categories/current-litters/products/black-silver-tortie/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_Silver_Tortie/Black-Silver-Tortie-05.jpg",
+      "local_path": "categories/current-litters/products/black-silver-tortie/images/05.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Current Litters",
+      "slug": "current-litters",
+      "url": "https://www.gimainecoons.com.au/current-litters"
+    }
+  ]
+}

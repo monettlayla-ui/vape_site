@@ -1,0 +1,39 @@
+{
+  "id": "kustodiev",
+  "title": "Kustodiev",
+  "description": "Kustodiev has a strong, striking presence, with a blue smoke and white coat that gives him a rich, refined look and beautiful depth through his fur. His clear blue eyes add a memorable softness to his expression, balancing his confident overall impression. He carries himself with quiet assurance and a calm, steady nature that feels both composed and intelligent. There is a lovely strength to his character, matched by a warm, observant expression that makes him especially appealing. Kustodiev is a truly impressive boy, with both substance and elegance in equal measure.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/studs/item/kustodiev",
+  "attributes": {
+    "gender": "Male",
+    "born": "20 August 2022",
+    "sale_status": "Available",
+    "colour": "Blue Smoke with White"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Kustodiev/Kustodiev-00.jpg",
+      "local_path": "categories/studs/products/kustodiev/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Kustodiev/Kustodiev-01.jpg",
+      "local_path": "categories/studs/products/kustodiev/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Studs/Kustodiev/Kustodiev-02.jpg",
+      "local_path": "categories/studs/products/kustodiev/images/03.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Studs",
+      "slug": "studs",
+      "url": "https://www.gimainecoons.com.au/our-coons/studs"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "princess-leia",
+  "name": "Princess Leia",
+  "tag": "Queens",
+  "stagesLabel": "Stages:  12-Weeks |  Current",
+  "description": [
+    "From a plush little blue fluff at 12 weeks to a graceful, full-grown female at 12 months and beyond, Princess Leia has matured beautifully. Her blue solid coat has deepened into a rich, even shade, giving her a soft, polished look that feels both elegant and distinctive. As a kitten, she already had a lovely expression and a quiet charm, and those qualities have only become more refined with age. Her progression captures that wonderful Maine Coon transformation, growing from a sweet, cuddly youngster into a composed and striking young lady with real presence."
+  ],
+  "stages": [
+    {
+      "label": "12-Weeks",
+      "local_path": "categories/journey/princess-leia/images/01.jpg"
+    },
+    {
+      "label": "Current",
+      "local_path": "categories/journey/princess-leia/images/02.jpg"
+    }
+  ]
+}

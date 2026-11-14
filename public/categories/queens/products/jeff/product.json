@@ -1,0 +1,50 @@
+{
+  "id": "jeff",
+  "title": "Jeff",
+  "description": "Jeff has a truly distinctive presence, with a blue tortie and white coat that gives her a soft, expressive beauty and a look all her own. Her blue eyes add an especially striking touch, bringing brightness and depth to her calm, observant expression. She carries herself with quiet confidence, balanced by a gentle, composed nature that feels warm and intelligent. There is a lovely elegance to her overall impression, along with a softness that makes her deeply appealing. Jeff is a refined and memorable girl, full of character, charm, and graceful presence.",
+  "short_description": null,
+  "price": null,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/our-coons/queens/item/jeff",
+  "attributes": {
+    "gender": "Female",
+    "born": "10 July 2022",
+    "sale_status": "Available",
+    "colour": "Blue Tortie with White",
+    "linage": "Russian"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Jeff/Jeff-00.jpg",
+      "local_path": "categories/queens/products/jeff/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Jeff/Jeff-01.jpg",
+      "local_path": "categories/queens/products/jeff/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Jeff/Jeff-02.jpg",
+      "local_path": "categories/queens/products/jeff/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Jeff/Jeff-03.jpg",
+      "local_path": "categories/queens/products/jeff/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Queens/Jeff/Jeff-04.jpg",
+      "local_path": "categories/queens/products/jeff/images/05.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Queens",
+      "slug": "queens",
+      "url": "https://www.gimainecoons.com.au/our-coons/queens"
+    }
+  ]
+}

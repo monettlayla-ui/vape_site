@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-nav: var(--font-lora);
+  --font-script: var(--font-berkshire);
+  --font-body: var(--font-lato);
+  --color-nav-ink: #2a1510;
+  --color-nav-ink-hover: #5c2a1a;
+  --color-nav-accent: #b5451f;
+  --color-brand-glow: #d97a3f;
 }
 
 @media (prefers-color-scheme: dark) {

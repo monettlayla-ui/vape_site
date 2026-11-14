@@ -1,0 +1,49 @@
+{
+  "id": "black-silver-girl",
+  "title": "Black Silver Girl",
+  "description": "Meet this gorgeous Black Silver Maine Coon girl, a beautiful little bundle of fluff with a soft, shimmering silver coat and delicate smoky grey markings.\n\nHer big, expressive blue-grey kitten eyes, adorable dark button nose and beautifully fluffy cheeks give her the sweetest little face. With her soft silver colouring, subtle darker shading and tiny tufted ears, she already has that unmistakable Maine Coon charm.\n\nThis precious little girl has a wonderfully curious expression, and her playful side shines through as she explores her surroundings and watches everything happening around her.\n\nWith her beautiful colouring and irresistible little face, she's sure to steal hearts and grow into a magnificent Maine Coon companion.\n\nShe's looking for a loving forever home where she can be cherished as part of the family.",
+  "short_description": null,
+  "price": 3000,
+  "sale_price": null,
+  "url": "https://www.gimainecoons.com.au/current-litters/item/black-silver-girl",
+  "attributes": {
+    "gender": "Female",
+    "born": "30 September 2026",
+    "sale_status": "Available",
+    "colour": "Black Silver"
+  },
+  "images": [
+    {
+      "position": 1,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_SIlver_Girl/Black-Silver-Girl-01.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl/images/01.jpg"
+    },
+    {
+      "position": 2,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_SIlver_Girl/Black-Silver-Girl-02.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl/images/02.jpg"
+    },
+    {
+      "position": 3,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_SIlver_Girl/Black-Silver-Girl-03.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl/images/03.jpg"
+    },
+    {
+      "position": 4,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_SIlver_Girl/Black-Silver-Girl-04.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl/images/04.jpg"
+    },
+    {
+      "position": 5,
+      "original_url": "https://www.gimainecoons.com.au/images/maine-coons/Kittens/2026-10-29/Black_SIlver_Girl/Black-Silver-Girl-05.jpg",
+      "local_path": "categories/current-litters/products/black-silver-girl/images/05.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Current Litters",
+      "slug": "current-litters",
+      "url": "https://www.gimainecoons.com.au/current-litters"
+    }
+  ]
+}
