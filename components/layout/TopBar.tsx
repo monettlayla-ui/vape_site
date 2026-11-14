@@ -4,12 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MailIcon } from "@/components/icons/MailIcon";
 import { PhoneIcon } from "@/components/icons/PhoneIcon";
-import { siteConfig } from "@/lib/site-config";
+import { siteConfig, whatsappHref } from "@/lib/site-config";
 
 const EMAIL = `${siteConfig.brandPrimary.toLowerCase().replace(" ", "")}@gmail.com`;
-const WHATSAPP_MESSAGE =
-  "Hi! I'm interested in learning more about your Maine Coon kittens. Could you please share more details and current availability? Thank you!";
-const WHATSAPP_HREF = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 export function TopBar() {
   const pathname = usePathname();
@@ -44,7 +41,7 @@ export function TopBar() {
 
         <div className="flex items-center gap-3">
           <a
-            href={WHATSAPP_HREF}
+            href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Message us on WhatsApp"

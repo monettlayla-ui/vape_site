@@ -10,7 +10,7 @@ import { PinIcon } from "@/components/icons/PinIcon";
 import { TikTokIcon } from "@/components/icons/TikTokIcon";
 import { SubmitTestimonialButton } from "@/components/sections/SubmitTestimonialButton";
 import { leftNavLinks, rightNavLinks } from "@/lib/navigation";
-import { siteConfig } from "@/lib/site-config";
+import { siteConfig, whatsappHref } from "@/lib/site-config";
 
 const SOCIAL_ICONS = [FacebookIcon, InstagramIcon, TikTokIcon, FacebookIcon, TikTokIcon, InstagramIcon];
 
@@ -55,7 +55,15 @@ export function Footer() {
           <ul className="mt-4 flex flex-col gap-2 font-nav">
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <PhoneIcon className="h-4 w-4 shrink-0" />
-              {siteConfig.phone}
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Message us on WhatsApp"
+                className="hover:underline"
+              >
+                {siteConfig.phone}
+              </a>
             </li>
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <MailIcon className="h-4 w-4 shrink-0" />
