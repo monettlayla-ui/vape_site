@@ -55,7 +55,7 @@ export function Footer() {
           <ul className="mt-4 flex flex-col gap-2 font-nav">
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <PhoneIcon className="h-4 w-4 shrink-0" />
-              0449 013 337
+              {siteConfig.phone}
             </li>
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <MailIcon className="h-4 w-4 shrink-0" />

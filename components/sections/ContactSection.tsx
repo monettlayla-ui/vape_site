@@ -13,11 +13,10 @@ const FIELD_CLASS =
   "w-full border border-nav-ink/15 bg-white px-5 py-3 font-nav text-nav-ink placeholder-nav-ink/50 outline-none focus:border-nav-accent";
 
 const EMAIL = `${siteConfig.brandPrimary.toLowerCase().replace(" ", "")}@gmail.com`;
-const PHONE = "0449 013 337";
 
 const CONTACT_ROWS = [
   { icon: PinIcon, label: "Location:", value: "Brisbane QLD 4000" },
-  { icon: PhoneIcon, label: "Mobile:", value: PHONE, href: `tel:${PHONE.replace(/\s/g, "")}` },
+  { icon: PhoneIcon, label: "Mobile:", value: siteConfig.phone, href: `tel:${siteConfig.phoneTel}` },
   { icon: ClockIcon, label: "Contact Times:", value: "Daily: 7:00am - 8:00pm" },
   { icon: MailIcon, label: "Email:", value: EMAIL, href: `mailto:${EMAIL}` },
   { icon: HashIcon, label: "ANCATS:", value: "ANCATS17102" },
