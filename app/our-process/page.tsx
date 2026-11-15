@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { ProcessClosing } from "@/components/sections/ProcessClosing";
 import { ProcessCommitment } from "@/components/sections/ProcessCommitment";
 import { ProcessPerspectives } from "@/components/sections/ProcessPerspectives";
 import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: "Our Process",
+  description: `Learn what to expect when reserving a Maine Coon kitten from ${siteConfig.fullName}, including our health guarantees, updates and breeding standards.`,
+  alternates: { canonical: "/our-process" },
+};
 
 export default function OurProcessPage() {
   return (

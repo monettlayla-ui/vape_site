@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { getBlogPosts } from "@/lib/blog";
+
+export const metadata: Metadata = {
+  title: "Blogs & News",
+  description:
+    "Breeder insights, buyer guides and Maine Coon care tips covering health, pricing, growth stages and what to expect when bringing home a kitten.",
+  alternates: { canonical: "/blogs" },
+};
 
 export default function BlogsPage() {
   const posts = getBlogPosts();

@@ -288,3 +288,15 @@ export const faqCategories: FaqCategory[] = [
     note: "We update this FAQ regularly as new questions come up. If you're genuinely interested in a beautiful kitten and would like to know what is currently available, please send us a message and we can communicate further.",
   },
 ];
+
+export function faqAnswerToText(answer: Faq["answer"]): string {
+  if (typeof answer === "string") return answer;
+
+  return answer
+    .map((block) => {
+      if (block.type === "p") return block.text;
+      if (block.type === "link") return block.href;
+      return block.items.join(", ");
+    })
+    .join(" ");
+}

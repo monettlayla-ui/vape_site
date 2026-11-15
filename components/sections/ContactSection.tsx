@@ -34,6 +34,9 @@ export function ContactSection() {
   useEffect(() => {
     if (state.success) {
       formRef.current?.reset();
+      // Resets the controlled <select> to match the native form reset above;
+      // this runs only once per successful server-action result, not on every render.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setEnquiry("");
     }
   }, [state]);

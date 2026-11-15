@@ -1,11 +1,37 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { FaqList } from "@/components/sections/FaqList";
-import { faqCategories } from "@/lib/faqs";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqAnswerToText, faqCategories } from "@/lib/faqs";
 import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: "Frequently Asked Questions",
+  description:
+    "Answers to common questions about buying a Maine Coon kitten from us, including pricing, health testing, visits, transport and more.",
+  alternates: { canonical: "/faqs" },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqCategories.flatMap((category) =>
+    category.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faqAnswerToText(faq.answer),
+      },
+    }))
+  ),
+};
 
 export default function FaqsPage() {
   return (
     <main className="flex-1">
+      <JsonLd data={faqJsonLd} />
+
       <section className="relative isolate flex min-h-[700px] items-center overflow-hidden">
         <Image
           src="/pages/our-process/hero.jpg"

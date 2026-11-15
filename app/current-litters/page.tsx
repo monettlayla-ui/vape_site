@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { LitterCard } from "@/components/sections/LitterCard";
 import { getProducts } from "@/lib/products";
+
+export const metadata: Metadata = {
+  title: "Current Litters",
+  description:
+    "Browse our current available Maine Coon kittens for sale in Brisbane, with safe nationwide transport across Australia.",
+  alternates: { canonical: "/current-litters" },
+};
 
 export default function CurrentLittersPage() {
   const kittens = getProducts("current-litters");

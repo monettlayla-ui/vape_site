@@ -1,13 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useActionState, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { SpeechIcon } from "@/components/icons/SpeechIcon";
 import { XIcon } from "@/components/icons/XIcon";
+import {
+  sendTestimonialEmail,
+  type TestimonialFormState,
+} from "@/lib/sendTestimonialEmail";
 import { FieldTooltip } from "./FieldTooltip";
 
 const FIELD_CLASS =
   "w-full rounded-none bg-[#f2f2f2] px-4 py-3 font-nav text-nav-ink placeholder-nav-ink/40 outline-none focus:bg-[#eaeaea]";
+
+const INITIAL_STATE: TestimonialFormState = { success: false, message: "" };
 
 export function SubmitTestimonialButton({
   className,
@@ -15,6 +21,17 @@ export function SubmitTestimonialButton({
   className?: string;
 }) {
   const [open, setOpen] = useState(false);
+  const [state, formAction, pending] = useActionState(
+    sendTestimonialEmail,
+    INITIAL_STATE
+  );
+  const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    if (state.success) {
+      formRef.current?.reset();
+    }
+  }, [state]);
 
   useEffect(() => {
     if (!open) return;
@@ -72,7 +89,11 @@ export function SubmitTestimonialButton({
               best to resolve it.
             </p>
 
-            <form className="mt-6 flex flex-col gap-5">
+            <form
+              ref={formRef}
+              action={formAction}
+              className="mt-6 flex flex-col gap-5"
+            >
               <div>
                 <label className="inline-flex items-center gap-2 font-nav font-bold text-nav-ink">
                   Name *
@@ -161,12 +182,26 @@ export function SubmitTestimonialButton({
                 </label>
               </div>
 
-              <button
-                type="button"
-                className="mt-2 inline-flex w-fit cursor-pointer items-center gap-2 rounded-full bg-[linear-gradient(45deg,#2A1510_0%,#D97A3F_100%)] px-8 py-3 font-nav text-white transition-opacity hover:opacity-90"
-              >
-                Send <span aria-hidden="true">&rarr;</span>
-              </button>
+              <div className="mt-2 flex flex-col gap-3">
+                <button
+                  type="submit"
+                  disabled={pending}
+                  className="inline-flex w-fit cursor-pointer items-center gap-2 rounded-full bg-[linear-gradient(45deg,#2A1510_0%,#D97A3F_100%)] px-8 py-3 font-nav text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
+                >
+                  {pending ? "Sending..." : "Send"}{" "}
+                  <span aria-hidden="true">&rarr;</span>
+                </button>
+
+                {state.message && (
+                  <p
+                    className={`font-nav text-sm ${
+                      state.success ? "text-green-700" : "text-red-600"
+                    }`}
+                  >
+                    {state.message}
+                  </p>
+                )}
+              </div>
             </form>
           </div>
         </div>

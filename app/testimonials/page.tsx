@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import { ReviewsGrid } from "@/components/sections/ReviewsGrid";
 import { SubmitTestimonialButton } from "@/components/sections/SubmitTestimonialButton";
 import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: "Testimonials & Reviews",
+  description: `Read real reviews from families who've welcomed a Maine Coon kitten from ${siteConfig.fullName} into their home.`,
+  alternates: { canonical: "/testimonials" },
+};
 
 export default function TestimonialsPage() {
   return (

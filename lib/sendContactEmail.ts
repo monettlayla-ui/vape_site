@@ -1,26 +1,12 @@
 "use server";
 
-import nodemailer from "nodemailer";
+import { getTransporter } from "@/lib/mailer";
 import { siteConfig } from "@/lib/site-config";
 
 export type ContactFormState = {
   success: boolean;
   message: string;
 };
-
-function getTransporter() {
-  const user = process.env.GMAIL_USER;
-  const pass = process.env.GMAIL_APP_PASSWORD;
-
-  if (!user || !pass) {
-    throw new Error("Email is not configured on the server.");
-  }
-
-  return nodemailer.createTransport({
-    service: "gmail",
-    auth: { user, pass },
-  });
-}
 
 function buildEmailBody(formData: FormData) {
   const enquiry = formData.get("enquiry");

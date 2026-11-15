@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { GalleryProvider } from "@/components/sections/GalleryProvider";
 import { GalleryThumb } from "@/components/sections/GalleryThumb";
 import { getGalleryImages } from "@/lib/gallery";
+
+export const metadata: Metadata = {
+  title: "Maine Coon Cat & Kitten Gallery Australia",
+  description:
+    "Browse photos of our Maine Coon cats and kittens, from playful kittens to striking adult studs and queens.",
+  alternates: { canonical: "/gallery" },
+};
 
 export default async function GalleryPage() {
   const images = await getGalleryImages();

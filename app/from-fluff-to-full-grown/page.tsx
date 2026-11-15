@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { JourneyBrowser } from "@/components/sections/JourneyBrowser";
 import { getJourneyProfiles } from "@/lib/journey";
 import { getProducts } from "@/lib/products";
+
+export const metadata: Metadata = {
+  title: "From Fluff to Full Grown: Maine Coon Growth Journeys",
+  description:
+    "Watch our Maine Coon kittens grow from tiny bundles of fluff into full-grown adults, with photo journeys for each cat.",
+  alternates: { canonical: "/from-fluff-to-full-grown" },
+};
 
 const CATEGORIES = ["current-litters", "studs", "queens", "graduates"];
 

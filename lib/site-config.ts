@@ -8,6 +8,12 @@ export const siteConfig = {
   phone: "(347) 829-7678",
   phoneTel: "+13478297678",
   whatsappNumber: "13478297678",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://vape-site-silk.vercel.app",
+  locationCity: "Brisbane",
+  locationState: "QLD",
+  locationPostcode: "4000",
+  locationCountry: "AU",
 };
 
 const WHATSAPP_MESSAGE =
