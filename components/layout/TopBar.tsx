@@ -6,8 +6,6 @@ import { MailIcon } from "@/components/icons/MailIcon";
 import { PhoneIcon } from "@/components/icons/PhoneIcon";
 import { siteConfig, whatsappHref } from "@/lib/site-config";
 
-const EMAIL = `${siteConfig.brandPrimary.toLowerCase().replace(" ", "")}@gmail.com`;
-
 export function TopBar() {
   const pathname = usePathname();
   const isFaqs = pathname.startsWith("/faqs");
@@ -51,11 +49,11 @@ export function TopBar() {
             {siteConfig.phone}
           </a>
           <a
-            href={`mailto:${EMAIL}`}
+            href={`mailto:${siteConfig.email}`}
             className="inline-flex items-center gap-2 rounded-full bg-[linear-gradient(45deg,#7A2E1D_0%,#D97A3F_100%)] px-4 py-1.5 font-nav text-sm text-white transition-opacity hover:opacity-90"
           >
             <MailIcon className="h-4 w-4" />
-            {EMAIL}
+            {siteConfig.email}
           </a>
         </div>
       </div>

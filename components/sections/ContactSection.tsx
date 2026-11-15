@@ -1,29 +1,42 @@
 "use client";
 
-import { useState } from "react";
+import { useActionState, useEffect, useRef, useState } from "react";
 import { ChevronIcon } from "@/components/icons/ChevronIcon";
 import { ClockIcon } from "@/components/icons/ClockIcon";
 import { HashIcon } from "@/components/icons/HashIcon";
 import { MailIcon } from "@/components/icons/MailIcon";
 import { PhoneIcon } from "@/components/icons/PhoneIcon";
 import { PinIcon } from "@/components/icons/PinIcon";
+import { sendContactEmail, type ContactFormState } from "@/lib/sendContactEmail";
 import { siteConfig } from "@/lib/site-config";
+
+const INITIAL_STATE: ContactFormState = { success: false, message: "" };
 
 const FIELD_CLASS =
   "w-full border border-nav-ink/15 bg-white px-5 py-3 font-nav text-nav-ink placeholder-nav-ink/50 outline-none focus:border-nav-accent";
-
-const EMAIL = `${siteConfig.brandPrimary.toLowerCase().replace(" ", "")}@gmail.com`;
 
 const CONTACT_ROWS = [
   { icon: PinIcon, label: "Location:", value: "Brisbane QLD 4000" },
   { icon: PhoneIcon, label: "Mobile:", value: siteConfig.phone, href: `tel:${siteConfig.phoneTel}` },
   { icon: ClockIcon, label: "Contact Times:", value: "Daily: 7:00am - 8:00pm" },
-  { icon: MailIcon, label: "Email:", value: EMAIL, href: `mailto:${EMAIL}` },
+  { icon: MailIcon, label: "Email:", value: siteConfig.email, href: `mailto:${siteConfig.email}` },
   { icon: HashIcon, label: "ANCATS:", value: "ANCATS17102" },
 ];
 
 export function ContactSection() {
   const [enquiry, setEnquiry] = useState("");
+  const [state, formAction, pending] = useActionState(
+    sendContactEmail,
+    INITIAL_STATE
+  );
+  const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    if (state.success) {
+      formRef.current?.reset();
+      setEnquiry("");
+    }
+  }, [state]);
 
   return (
     <section className="bg-[#f7f7f7] py-14">
@@ -88,7 +101,7 @@ export function ContactSection() {
             Contact Form
           </h2>
 
-          <form className="mt-6 flex flex-col gap-4">
+          <form ref={formRef} action={formAction} className="mt-6 flex flex-col gap-4">
             <input
               type="text"
               name="name"
@@ -222,13 +235,25 @@ export function ContactSection() {
               </span>
             </label>
 
-            <div className="mt-2">
+            <div className="mt-2 flex flex-col gap-3">
               <button
-                type="button"
-                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-[linear-gradient(45deg,#7A2E1D_0%,#D97A3F_100%)] px-8 py-3 font-nav text-white transition-opacity hover:opacity-90"
+                type="submit"
+                disabled={pending}
+                className="inline-flex w-fit cursor-pointer items-center gap-2 rounded-full bg-[linear-gradient(45deg,#7A2E1D_0%,#D97A3F_100%)] px-8 py-3 font-nav text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
               >
-                Send <span aria-hidden="true">&rarr;</span>
+                {pending ? "Sending..." : "Send"}{" "}
+                <span aria-hidden="true">&rarr;</span>
               </button>
+
+              {state.message && (
+                <p
+                  className={`font-nav text-sm ${
+                    state.success ? "text-green-700" : "text-red-600"
+                  }`}
+                >
+                  {state.message}
+                </p>
+              )}
             </div>
           </form>
         </div>

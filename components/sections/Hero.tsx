@@ -29,7 +29,7 @@ export function Hero() {
         </p>
 
         <h1 className="mt-2 bg-[linear-gradient(-45deg,#2A1510_0%,#D97A3F_40%,#2A1510_100%)] bg-clip-text font-script text-5xl leading-[1.2] text-transparent md:text-6xl">
-          {siteConfig.brandPrimary}
+          {siteConfig.fullName}
         </h1>
 
         <p className="mt-4 font-nav text-[17px] font-bold text-nav-ink">

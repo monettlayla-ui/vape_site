@@ -75,7 +75,7 @@ export function LogoMark({ className }: { className?: string }) {
       <text
         fontFamily="var(--font-berkshire), cursive"
         fontWeight={400}
-        fontSize="27"
+        fontSize="40"
         fill={GLOW}
         stroke={INK}
         strokeWidth="1"

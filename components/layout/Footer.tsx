@@ -67,8 +67,7 @@ export function Footer() {
             </li>
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <MailIcon className="h-4 w-4 shrink-0" />
-              {siteConfig.brandPrimary.toLowerCase().replace(" ", "")}
-              @gmail.com
+              {siteConfig.email}
             </li>
             <li className="flex items-center justify-center gap-3 md:justify-start">
               <HashIcon className="h-4 w-4 shrink-0" />

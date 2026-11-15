@@ -1,9 +1,10 @@
 export const siteConfig = {
-  brandPrimary: "GiantGentlePaws",
+  brandPrimary: "Gentle",
   brandSecondary: "Maine Coons",
-  fullName: "GiantGentlePaws Maine Coons",
+  fullName: "Gentle Maine Coons",
   description:
     "Pedigree European Giant Maine Coons, based in Brisbane, Queensland.",
+  email: "gentlemaincoon@gmail.com",
   phone: "(347) 829-7678",
   phoneTel: "+13478297678",
   whatsappNumber: "13478297678",
