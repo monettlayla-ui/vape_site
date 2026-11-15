@@ -14,6 +14,7 @@ export const siteConfig = {
   locationState: "QLD",
   locationPostcode: "4000",
   locationCountry: "AU",
+  indexNowKey: "2b5aead34f043001820a369cc7917a25",
 };
 
 const WHATSAPP_MESSAGE =

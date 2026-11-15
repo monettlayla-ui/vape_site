@@ -1,18 +1,13 @@
 import Link from "next/link";
-import { FacebookIcon } from "@/components/icons/FacebookIcon";
 import { GlobeIcon } from "@/components/icons/GlobeIcon";
 import { HashIcon } from "@/components/icons/HashIcon";
 import { HomeIcon } from "@/components/icons/HomeIcon";
-import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import { MailIcon } from "@/components/icons/MailIcon";
 import { PhoneIcon } from "@/components/icons/PhoneIcon";
 import { PinIcon } from "@/components/icons/PinIcon";
-import { TikTokIcon } from "@/components/icons/TikTokIcon";
 import { SubmitTestimonialButton } from "@/components/sections/SubmitTestimonialButton";
 import { leftNavLinks, rightNavLinks } from "@/lib/navigation";
 import { siteConfig, whatsappHref } from "@/lib/site-config";
-
-const SOCIAL_ICONS = [FacebookIcon, InstagramIcon, TikTokIcon, FacebookIcon, TikTokIcon, InstagramIcon];
 
 export function Footer() {
   return (
@@ -78,17 +73,6 @@ export function Footer() {
               Brisbane QLD 4000
             </li>
           </ul>
-
-          <div className="mt-5 hidden items-center justify-center gap-3 md:flex md:justify-start">
-            {SOCIAL_ICONS.map((Icon, i) => (
-              <span
-                key={i}
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white"
-              >
-                <Icon className="h-4 w-4" />
-              </span>
-            ))}
-          </div>
 
           <SubmitTestimonialButton className="mt-6 inline-flex cursor-pointer items-center gap-2 rounded-full bg-[linear-gradient(45deg,#7A2E1D_0%,#D97A3F_100%)] px-6 py-3 font-nav text-white transition-opacity hover:opacity-90" />
         </div>
