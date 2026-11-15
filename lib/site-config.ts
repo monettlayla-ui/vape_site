@@ -9,7 +9,7 @@ export const siteConfig = {
   phoneTel: "+13478297678",
   whatsappNumber: "13478297678",
   siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://vape-site-silk.vercel.app",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.gentlemainecoon.com",
   locationCity: "Brisbane",
   locationState: "QLD",
   locationPostcode: "4000",
