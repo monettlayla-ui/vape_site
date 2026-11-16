@@ -46,6 +46,7 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   keywords: [
+    "Maine Coon Australia",
     "Maine Coon kittens Brisbane",
     "Maine Coon breeder Australia",
     "Maine Coon kittens for sale",
@@ -84,6 +85,8 @@ const businessJsonLd = {
   name: siteConfig.fullName,
   description: SITE_DESCRIPTION,
   url: siteConfig.siteUrl,
+  logo: `${siteConfig.siteUrl}/logo.png`,
+  image: `${siteConfig.siteUrl}/logo.png`,
   telephone: siteConfig.phoneTel,
   email: siteConfig.email,
   priceRange: "$$",
